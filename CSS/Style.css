@@ -1,0 +1,64 @@
+body {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #fcfcfceb;
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+}
+.banner {
+    width: 100%;
+    height: 400px; /* Ajusta la altura  */
+    background-image: url("Imagenes/Header.jpeg"); /* URL de la imagen del banner */
+    background-size: cover; /* Ajustar la imagen al contenedor */
+    background-position: center; /* Posicionar la imagen en el centro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(250, 244, 71); /* Color del texto del banner */
+}
+
+
+.banner h1 {
+    font-family: "Slackey", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-family: "Slackey", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.tema {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Slackey", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    font-family: "Slackey", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
