@@ -1,0 +1,64 @@
+.container {
+    display: flex; /* Activate Flexbox for the container */
+  }
+  
+  .div1  {
+    flex: 2; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 50px;
+    text-align: center; 
+    font-size: 16px; 
+    width: 5px;
+    height: 350px;
+    background-color:rgba(19, 134, 198, 0.22);
+  }
+  .div2  {
+    flex: 2; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 50px;
+    text-align: center; 
+    font-size: 16px; 
+    width: 5px; 
+    height: 350px;
+    background-color:rgba(253, 204, 57, 0.29);
+  }
+  .div3  {
+    flex: 2; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 50px;
+    text-align: center; 
+    font-size: 16px; 
+    width: 5px; 
+    height: 350px;
+    background-color:rgba(255, 84, 95, 0.38);
+  }
+  .Bob  {
+    flex: 2; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.5;
+  }
+  .patricio  {
+    flex: 2; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.5;
+  }
+  .calamardo  {
+    flex: 2; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.5;
+  }
