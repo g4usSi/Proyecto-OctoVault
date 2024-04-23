@@ -1,0 +1,29 @@
+
+
+
+.contenedor {
+    max-width: 900px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    overflow: hidden; /* Limpiar el float */
+    font-size: small;
+}
+
+/* Estilos para los cuadros */
+.cuadro {
+    width: calc(33.33% - 40px); /* Ancho del cuadro, 33.33% menos el espacio de margen */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    font-size: small;
+}
+
+/* Estilos para la imagen dentro de los cuadros */
+.cuadro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    font-size: small;
+}
