@@ -1,21 +1,32 @@
 /*Impacto-cultural*/
 .Impacto-cultural{
-  
+
 }
 
 /*Curiosidades y teorias*/
 .CuriosidadesyTeorias{
-  margin: 40px 40px 40px 10px;
-}
+  margin: 40px 40px 40px 40px;
+}/*Estilo de toda la seccion de Curiosidades*/
 
-.tituloconfondo {
-  background-image: url("Imagenes/Titulo.png"); /* URL de la imagen del banner */
-  background-size: 675px 273px; /* Ajustar la imagen al contenedor */
+/*Titulo*/
+.contenedor-titulo-cyt {
+  width: 600px;
+  height: 300px;
+  background: url(Imagenes/Titulo.png);
+  background-size: cover;
+  background-position: center;
+  image-resolution: 675px 273px;
   display: flex;
-}
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }/*imagen del titulo*/
+
+.texto-titulo-cyt {
+  position: relative;
+}/*titulo de la seccion*/
 
 #tituloCyT {
-  margin: 20px 0px 50px 20px;
   -webkit-text-stroke: 0.2px black;
   color: #fdde00;
   text-shadow:
@@ -24,8 +35,9 @@
     1px 2px 0 #c3b11e,
     1px 1px 0 #c3b11e,
     1px 1px 0 #c3b11e;
-}/*titulo de la seccion*/
+}/*texto del titulo*/
 
+/*Tarjetas*/
 /*delimitar un tamaño fijo para cada caja*/
 .imagenTarjetas{
   display: block; /* Para que la imagen se comporte como un bloque */
@@ -58,7 +70,6 @@
   height: 7px;
   overflow-x: scroll;
   scrollbar-width: thin;
-  position: fixed;
 }
 
 .container::-webkit-scrollbar-thumb {
@@ -71,15 +82,15 @@
   border-radius: 90px;
 }
 
-@media (max-width: 1000px) {
+/*@media (max-width: 1000px) {
   .container{
     flex-direction: column;
   }
-}/*responsive, delimitar los nuevos parametros para responsive*/
+}*//*responsive, delimitar los nuevos parametros para responsive*/
 
+/*Tarjetas*/
 .curiosidad5 h3,
 .curiosidad5 p {
-
   color:black;
   font-size: 10px;
   margin-bottom: 20px;
@@ -97,6 +108,7 @@
   width: 225px;
   height: 340px;
   box-sizing: border-box;
+  background-color: rgba(253, 204, 57, 0.4);
 }
 
 .curiosidad4 h3,
@@ -117,6 +129,7 @@
   width: 225px;
   height: 340px;
   box-sizing: border-box;
+  background-color: rgba(19, 134, 198, 0.4);
 }
 
 .curiosidad3 h3,
@@ -138,6 +151,7 @@
   width: 225px;
   height: 340px;
   box-sizing: border-box;
+  background-color: rgba(19, 134, 198, 0.4);
 }
 .curiosidad2 h3,
 .curiosidad2 p {
@@ -157,6 +171,7 @@
   width: 225px;
   height: 340px;
   box-sizing: border-box;
+  background-color: rgba(78, 113, 151, 0.45);
 }
 
 .curiosidad1 h3,
@@ -175,9 +190,10 @@
   border: 1px solid black; /* Estilo de borde existente */
   margin: 20px 60px; /* Espacio entre tarjetas */
   border-radius: 6px; /* Redondeo de esquinas */
-  width: 225px; /* Ancho fijo */
-  height: 340px; /* Altura fija*/
+  width: 233px; /* Ancho fijo */
+  height: 315px; /* Altura fija*/
   box-sizing: border-box; /* Incluir el borde en el tamaño */
+  background-color: rgba(255, 84, 95, 0.6);
 }
 /*Fin de Curiosidades y Teorias*/
 
