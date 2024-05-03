@@ -2,7 +2,7 @@
 {
  
     columns: 200px 2;
-    column-gap: 30px;
+    column-gap: 100px;
     padding: 25px;
     text-align: justify;
 }
@@ -18,12 +18,11 @@ text-align: center;
 .bordes {
   
     border: 10px solid #B2AFAF;
-    background-color:  #4fd1f0;
-    opacity: 0.6;
+    background-color:  rgba(79, 209, 240, 0.6);
     display: inline-flex;
     margin: 10px;
-    padding: 20px;
-    width: 100%;
+    padding: 15px;
+    width: 98%;
     height: fit-content;
     position: relative;
     text-align: center;
@@ -34,4 +33,5 @@ text-align: center;
 #texto {
     color: black;
     border-radius:  20px;
+    
 }
