@@ -8,25 +8,45 @@
   margin: 40px 40px 40px 40px;
 }/*Estilo de toda la seccion de Curiosidades*/
 
+::before, ::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fondo-titulo{
+  margin: 10px 20px 20px 0px;
+  width: 600px;
+  height: 300px;
+}
+
 /*Titulo*/
 .contenedor-titulo-cyt {
   width: 600px;
   height: 300px;
-  background: url(Imagenes/Titulo.png);
-  background-size: cover;
-  background-position: center;
-  image-resolution: 675px 273px;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   text-align: center;
+
  }/*imagen del titulo*/
 
-.texto-titulo-cyt {
-  position: relative;
-}/*titulo de la seccion*/
+.contenedor-titulo-cyt img {
+  width: 100%;
+  height: 100%;
+}
+ 
+.contenedor-titulo-cyt h2 {
+  position: absolute;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-#tituloCyT {
+}
+
+#titulos-principales {
   -webkit-text-stroke: 0.2px black;
   color: #fdde00;
   text-shadow:
@@ -67,7 +87,7 @@
 
 .container::-webkit-scrollbar {
   width: 300px;
-  height: 7px;
+  height: 8px;
   overflow-x: scroll;
   scrollbar-width: thin;
 }
@@ -190,8 +210,8 @@
   border: 1px solid black; /* Estilo de borde existente */
   margin: 20px 60px; /* Espacio entre tarjetas */
   border-radius: 6px; /* Redondeo de esquinas */
-  width: 233px; /* Ancho fijo */
-  height: 315px; /* Altura fija*/
+  width: 225px; /* Ancho fijo */
+  height: 340px; /* Altura fija*/
   box-sizing: border-box; /* Incluir el borde en el tamaño */
   background-color: rgba(255, 84, 95, 0.6);
 }
