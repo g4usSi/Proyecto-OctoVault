@@ -1,8 +1,10 @@
 .parrafos
 {
+ 
     columns: 200px 2;
     column-gap: 30px;
     padding: 25px;
+    text-align: justify;
 }
 .img01
 {
@@ -11,5 +13,25 @@
 }
 .trama
 {
+text-align: center;
+}
+.bordes {
+  
+    border: 10px solid #B2AFAF;
+    background-color:  #4fd1f0;
+    opacity: 0.6;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    text-align: center;
+    border-radius:  20px;
+    color: black;
+}
 
+#texto {
+    color: black;
+    border-radius:  20px;
 }
