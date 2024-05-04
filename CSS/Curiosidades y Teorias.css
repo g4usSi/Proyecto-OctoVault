@@ -9,16 +9,8 @@
   box-sizing: border-box;
 }
 
-#fondo-titulo {
-  width: 435px; /*imagen de fondo*/
-  height: 230px;
-  opacity: 0.87;
-  transform: rotate(-7deg);
-}
-
 /*Titulo*/
 .contenedor-titulo-cyt {
-  margin-left: 20px;
   margin-top: 20px;
   width: 500px;
   height: 150px;
@@ -29,6 +21,13 @@
   text-align: center;
 
  }/*imagen del titulo*/
+
+#fondo-titulo {
+  width: 435px; /*imagen de fondo*/
+  height: 230px;
+  opacity: 0.87;
+  transform: rotate(-7deg);
+}
 
 .contenedor-titulo-cyt img {
   width: 100%;
@@ -55,6 +54,15 @@
     1px 1px 0 #c3b11e,
     1px 1px 0 #c3b11e;
 }/*texto del titulo*/
+
+/*@media (max-width: 1000px) {
+  .contenedor-titulo-cyt {
+    resize: 500px;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+}*//*responsive, delimitar los nuevos parametros para responsive*/
 
 /*Tarjetas*/
 /*delimitar un tamaño fijo para cada caja*/
@@ -98,12 +106,6 @@
   background: #ffffff; /* Color de fondo de la pista */
   border-radius: 150px;
 }
-
-/*@media (max-width: 1000px) {
-  .container{
-    flex-direction: column;
-  }
-}*//*responsive, delimitar los nuevos parametros para responsive*/
 
 /*Tarjetas*/
 /*texto tarjetas*/
