@@ -2,55 +2,62 @@
     display: flex; /* Activate Flexbox for the container */
     flex-direction: row;
     overflow-x: auto;
+    width: fit-content;
    
   }
-  
+  .container::-webkit-scrollbar {
+    width: 300px;
+    height: 8px;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+
   .div1  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 400px;
+    width: 300px;
     height: 350px;
     background-color:rgba(19, 134, 198, 0.22);
   }
   .div2  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin:  20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px; 
+    width: 300px;
     height: 350px;
     background-color:rgba(253, 204, 57, 0.29);
   }
   .div3  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin:  20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px; 
+    width: 300px;
     height: 350px;
     background-color:rgba(255, 84, 95, 0.38);
   }
   .div4  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px; 
+    width: 300px;
     height: 350px;
     background-color:rgba(65, 212, 28, 0.38);
   }
   .div5  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin: 20px;
@@ -61,40 +68,40 @@
     background-color:rgba(19, 134, 198, 0.22);
   }
   .div6  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px; 
+    width: 300px;
     height: 350px;
     background-color:rgba(249, 153, 9, 0.38);
   }
   .div7  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px; 
-    height: 350px;
+    width: 300px;
+    height: 350px;;
     background-color:rgba(253, 204, 57, 0.29);
   }
   .div8  {
-    flex: 1; 
+    flex: 1;
     border: 2px solid black; 
     border-radius: 10px; 
     margin:  20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px; 
+    width: 200px;
     height: 350px;
     background-color:rgba(19, 134, 198, 0.4);
   }
   .Bob  {
-    flex: 2; 
+    flex: 1; 
     border: 2px;
     margin: 10px;
     text-align: justify; 
@@ -103,7 +110,7 @@
     line-height: 1.5;
   }
   .patricio  {
-    flex: 2; 
+    flex: 1; 
     border: 2px;
     margin: 10px;
     text-align: justify; 
@@ -112,7 +119,7 @@
     line-height: 1.5;
   }
   .calamardo  {
-    flex: 2; 
+    flex: 1; 
     border: 2px;
     margin: 10px;
     text-align: justify; 
@@ -121,7 +128,7 @@
     line-height: 1.5;
   }
   .cangrejo  {
-    flex: 2; 
+    flex: 1; 
     border: 2px;
     margin: 10px;
     text-align: justify; 
@@ -130,7 +137,7 @@
     line-height: 1.5;
   }
   .arenita  {
-    flex: 2; 
+    flex: 1; 
     border: 2px;
     margin: 10px;
     text-align: justify; 
@@ -148,7 +155,7 @@
     line-height: 1.5;
   }
   .sheldon  {
-    flex: 2; 
+    flex: 1; 
     border: 2px;
     margin: 10px;
     text-align: justify; 
@@ -157,7 +164,7 @@
     line-height: 1.5;
   }
   .karen  {
-    flex: 2; 
+    flex: 1; 
     border: 2px;
     margin: 10px;
     text-align: justify; 
