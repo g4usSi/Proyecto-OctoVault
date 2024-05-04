@@ -2,15 +2,11 @@
     display: flex; /* Activate Flexbox for the container */
     flex-direction: row;
     overflow-x: auto;
-    width: fit-content;
+
    
   }
-  .container::-webkit-scrollbar {
-    width: 300px;
-    height: 8px;
-  overflow-x: scroll;
-  scrollbar-width: thin;
-}
+
+
 
   .div1  {
     flex: 1;
@@ -19,7 +15,7 @@
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px;
+    min-width: 300px;
     height: 350px;
     background-color:rgba(19, 134, 198, 0.22);
   }
@@ -30,7 +26,7 @@
     margin:  20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px;
+    min-width: 300px;
     height: 350px;
     background-color:rgba(253, 204, 57, 0.29);
   }
@@ -41,7 +37,7 @@
     margin:  20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px;
+    min-width: 300px;
     height: 350px;
     background-color:rgba(255, 84, 95, 0.38);
   }
@@ -52,7 +48,7 @@
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px;
+    min-width: 300px;
     height: 350px;
     background-color:rgba(65, 212, 28, 0.38);
   }
@@ -63,9 +59,9 @@
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px;
+    min-width: 300px;
     height: 350px;
-    background-color:rgba(19, 134, 198, 0.22);
+    background-color:rgba(249, 153, 9, 0.38);
   }
   .div6  {
     flex: 1;
@@ -74,9 +70,9 @@
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px;
+    min-width: 300px;
     height: 350px;
-    background-color:rgba(249, 153, 9, 0.38);
+    background-color:rgba(115, 47, 168, 0.38);
   }
   .div7  {
     flex: 1;
@@ -85,7 +81,7 @@
     margin: 20px;
     text-align: center; 
     font-size: 16px; 
-    width: 300px;
+    min-width: 300px;
     height: 350px;;
     background-color:rgba(253, 204, 57, 0.29);
   }
@@ -96,7 +92,7 @@
     margin:  20px;
     text-align: center; 
     font-size: 16px; 
-    width: 200px;
+    min-width: 300px;
     height: 350px;
     background-color:rgba(19, 134, 198, 0.4);
   }
@@ -172,3 +168,5 @@
     font-family: 'Bubblegum Sans';
     line-height: 1.5;
   }
+
+  
