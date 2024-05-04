@@ -6,10 +6,19 @@
     padding: 25px;
     text-align: justify;
 }
-.img01
-{
-    width: 400px; 
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio entre la imagen y el párrafo */
+}
+
+.img01 {
+    width: 600px;
     height: 250px;
+    /* Ajustes para centrar la imagen en la primera columna */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .trama
 {
@@ -34,4 +43,7 @@ text-align: center;
     color: black;
     border-radius:  20px;
     
+}
+#texto > .parrafos > p:nth-child(2) {
+    font-size: normal; /* Tamaño de fuente normal */
 }
