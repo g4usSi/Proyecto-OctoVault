@@ -6,6 +6,8 @@
     margin: 0 auto; /* Centrar el contenedor */
     overflow: hidden; /* Limpiar el float */
     font-size: small;
+    background-color: rgba(79, 209, 240, 0.6);
+
 }
 
 /* Estilos para los cuadros */
@@ -26,4 +28,8 @@
     height: auto;
     border-radius: 5px;
     font-size: small;
+}
+#texto {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
