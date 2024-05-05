@@ -73,7 +73,7 @@
   height: auto; /* Mantener la relación de aspecto de la imagen */
 }
 
-.container {
+.contenedor-curiosidades {
   /*border: 10px solid #00000039;*//*borde para el contenedor*/
   background-color: #0808081b;
   border-radius: 20px;
@@ -128,7 +128,7 @@
   margin: 20px 60px;
   border-radius: 10px;
   width: 250px;
-  min-width: 250px;
+  min-width: 280px;
   min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(253, 204, 57, 0.4);
@@ -151,7 +151,7 @@
   margin: 20px 60px;
   border-radius: 6px;
   width: 250px;
-  min-width: 250px;
+  min-width: 280px;
   min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(19, 134, 198, 0.4);
@@ -175,7 +175,7 @@
   margin: 20px 60px;
   border-radius: 6px;
   width: 250px;
-  min-width: 250px;
+  min-width: 280px;
   min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(78, 113, 151, 0.45);
@@ -197,7 +197,7 @@
   margin: 20px 60px;
   border-radius: 6px;
   width: 250px;
-  min-width: 250px;
+  min-width: 280px;
   min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(255, 84, 95, 0.6);
@@ -221,7 +221,7 @@
   margin: 20px 60px; /* Espacio entre tarjetas */
   border-radius: 6px; /* Redondeo de esquinas */
   width: 250px;
-  min-width: 250px;
+  min-width: 280px;
   min-height: 400px;
   box-sizing: border-box; /* Incluir el borde en el tamaño */
   background-color: rgba(132, 207, 187, 0.486);
