@@ -1,3 +1,9 @@
+.html{
+    min-height: 160%;
+  position: relative;
+   /* height: 100%;*/
+}
+
 body {
     font-family: "Slackey", sans-serif;
     font-weight: 400;

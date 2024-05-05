@@ -1,6 +1,6 @@
 /*Curiosidades y teorias*/
 .CuriosidadesyTeorias {
-  margin: 15px 0px 0px 30px;
+  margin: 15px 0px 0px 20px;/*top, right, bottom, left*/
 }/*Estilo de toda la seccion de Curiosidades*/
 
 ::before, ::after {
@@ -11,8 +11,8 @@
 
 /*Titulo*/
 .contenedor-titulo-cyt {
-  margin-top: 4%;
-  margin-left: -3%;
+  margin-top: 1.3%;
+  margin-left: -2%;
   width: 500px;
   height: 150px;
   display: flex;
@@ -32,13 +32,13 @@
 
 .contenedor-titulo-cyt img {
   margin-left: 0%;
-  margin-top: 25%;
+  margin-top: 18%;
   width: 100%;
   height: 100%;
 }
- 
+
 .contenedor-titulo-cyt h2 {
-  margin-top: 30%;
+  margin-top: 25%;
   transform: rotate(-5deg);
   position: absolute;
   font-size: 2.7rem;
@@ -69,7 +69,7 @@
 
 /*Tarjetas*/
 /*delimitar un tamaño fijo para cada caja*/
-.imagenTarjetas{
+.imagenTarjetas {
   display: block; /* Para que la imagen se comporte como un bloque */
   margin: auto; /* Centrar horizontalmente */
   width: 200px; /* Ajustar el ancho según sea necesario */
@@ -78,7 +78,7 @@
 
 .contenedor-curiosidades {
   /*border: 10px solid #00000039;*//*borde para el contenedor*/
-  background-color: #0808081b;
+  background-color: #0808082f;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
