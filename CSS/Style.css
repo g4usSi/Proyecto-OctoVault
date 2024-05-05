@@ -9,6 +9,11 @@ header {
     padding: 20px;
 }
 
+.html{
+    min-height: 160%;
+  position: relative;
+   /* height: 100%;*/
+}
 .banner {
     text-align: center;
 }
