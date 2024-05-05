@@ -1,9 +1,9 @@
 /*Curiosidades y teorias*/
-.CuriosidadesyTeorias{
-  margin: 80px 10px 10px 30px;
+.CuriosidadesyTeorias {
+  margin: 15px 0px 0px 30px;
 }/*Estilo de toda la seccion de Curiosidades*/
 
-::before, ::after{
+::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,8 @@
 
 /*Titulo*/
 .contenedor-titulo-cyt {
-  margin-top: 20px;
+  margin-top: 4%;
+  margin-left: -3%;
   width: 500px;
   height: 150px;
   display: flex;
@@ -25,18 +26,20 @@
 #fondo-titulo {
   width: 435px; /*imagen de fondo*/
   height: 230px;
-  opacity: 0.87;
+  opacity: 0.88;
   transform: rotate(-7deg);
 }
 
 .contenedor-titulo-cyt img {
+  margin-left: 0%;
+  margin-top: 25%;
   width: 100%;
   height: 100%;
 }
  
 .contenedor-titulo-cyt h2 {
-  margin-top: 20px;
-  transform: rotate(-3deg);
+  margin-top: 30%;
+  transform: rotate(-5deg);
   position: absolute;
   font-size: 2.7rem;
   display: flex;
@@ -90,25 +93,32 @@
 }/*contendor de las tarjetas*/
 /*estilizando la barra*/
 
-.container::-webkit-scrollbar {
-  width: 0px;
-  height: 5px;
+.contenedor-curiosidades::-webkit-scrollbar {
+  height: 4px;
   overflow-x: scroll;
   scrollbar-width: thin;
 }
 
-.container::-webkit-scrollbar-thumb {
+.contenedor-curiosidades::-webkit-scrollbar-thumb {
   background: #535252c9; /* Color del thumb (agarre) */
   border-radius: 150px; /* Hace el thumb redondo */
+
 }
 
-.container::-webkit-scrollbar-track {
-  background: #ffffff; /* Color de fondo de la pista */
+.contenedor-curiosidades::-webkit-scrollbar-track {
+  background: solid #ffffff; /* Color de fondo de la pista */
   border-radius: 150px;
+
 }
 
 /*Tarjetas*/
 /*texto tarjetas*/
+#titulo-card {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .curiosidad5 h3,
 .curiosidad5 p {
   color:black;
@@ -124,9 +134,9 @@
 
 /*tarjeta*/
 .curiosidad5 {
-  border: 1px solid black;
-  margin: 20px 60px;
-  border-radius: 10px;
+  border: 4px rgba(253, 204, 57);
+  margin: 90px 0px 15px 0px;
+  border-radius: 15px;
   width: 250px;
   min-width: 280px;
   min-height: 400px;
@@ -147,9 +157,9 @@
   word-spacing: -0.07em;
 }
 .curiosidad4{
-  border: 1px solid black;
+  border: 4px rgba(19, 134, 198);
   margin: 20px 60px;
-  border-radius: 6px;
+  border-radius: 15px;
   width: 250px;
   min-width: 280px;
   min-height: 400px;
@@ -171,9 +181,9 @@
 }
 
 .curiosidad3{
-  border: 1px solid black;
+  border: 4px rgba(78, 113, 151);
   margin: 20px 60px;
-  border-radius: 6px;
+  border-radius: 15px;
   width: 250px;
   min-width: 280px;
   min-height: 400px;
@@ -193,9 +203,9 @@
   word-spacing: -0.07em;
 }
 .curiosidad2{
-  border: 1px solid black;
+  border: 4px rgba(255, 84, 95);
   margin: 20px 60px;
-  border-radius: 6px;
+  border-radius: 15px;
   width: 250px;
   min-width: 280px;
   min-height: 400px;
@@ -217,9 +227,9 @@
 }
 
 .curiosidad1 {
-  border: 1px solid black; /* Estilo de borde existente */
+  border: 4px rgba(132, 207, 187); /* Estilo de borde existente */
   margin: 20px 60px; /* Espacio entre tarjetas */
-  border-radius: 6px; /* Redondeo de esquinas */
+  border-radius: 15px; /* Redondeo de esquinas */
   width: 250px;
   min-width: 280px;
   min-height: 400px;
