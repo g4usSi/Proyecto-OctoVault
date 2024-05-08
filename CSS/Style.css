@@ -1,6 +1,17 @@
+.html{
+    min-height: 160%;
+  position: relative;
+   /* height: 100%;*/
+}
+
 body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.512), rgba(255, 255, 255, 0.485)),url("/CSS/Imagenes/VERSHHH.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Slackey", sans-serif;
-    font-weight: 400;
+    font-family: "Slackey", sans-serif;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -62,3 +73,14 @@ p {
     font-size: 30px;
     margin-bottom: 10px;
 }
+
+#titulos-principales {
+    -webkit-text-stroke: 0.2px black;
+    color: #fdde00;
+    text-shadow:
+      -3px 3px 0 #c3b11e,
+      1px 1px 0 #c3b11e,
+      1px 2px 0 #c3b11e,
+      1px 1px 0 #c3b11e,
+      1px 1px 0 #c3b11e;
+  }/*texto de los titulos*/

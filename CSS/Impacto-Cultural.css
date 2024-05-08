@@ -1,0 +1,62 @@
+.Impacto-cultural
+{
+    border: 18px solid #6b6b6b9c; 
+    background-color: rgba(37, 158, 222, 0.216);
+    border-radius: 20px;
+    flex-direction: row;
+    margin: 15px;
+    padding: 20px;
+    width: auto;
+    font-size: 10px;
+    height: fit-content;
+    position: relative;
+
+}
+.titulo-impactocultural
+{
+    position: absolute;
+    top: 10%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0px 100px;
+    -webkit-text-stroke: 1.3px black;
+    color: #fdde00;
+    text-shadow:
+      -3px 3px 0 #000000,
+      1px 1px 0 #000000,
+      1px 2px 0 #000000,
+      1px 1px 0 #c3b11e,
+      1px 1px 0 #c3b11e;
+}
+
+
+.primer-parrafo 
+{
+    margin: 70px 50px;
+    border-radius: 10px;
+font-size: 10rem;
+    min-width: 1089px;
+    min-height: 500px;
+    box-sizing: content-box;
+    position: absolute;
+    top: 20px; 
+    left: 50px; 
+    z-index: 1;
+    left:0;
+    
+}
+.segundo-parrafo 
+{
+
+    border: 0px;
+    margin: 50px 850px;
+    border-radius: 10px;
+    width: 250px;
+    min-width: 1089px;
+    min-height: 400px;
+    box-sizing: content-box;
+    position: right;
+    right:0;
+}
+
