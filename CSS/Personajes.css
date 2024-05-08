@@ -4,10 +4,28 @@
     overflow-x: auto;
     background-color: #0808081b;
     border-radius: 20px;
-   
+    overflow-x: auto;
+    backdrop-filter: blur(0.38rem);
+    -webkit-backdrop-filter: blur(0.35rem);
   }
 
-
+  .containerpersonajes::-webkit-scrollbar {
+    height: 3px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+  }
+  
+  .containerpersonajes::-webkit-scrollbar-thumb {
+    background: #535252c9; /* Color del thumb (agarre) */
+    border-radius: 150px; /* Hace el thumb redondo */
+  
+  }
+  
+  .containerpersonajes::-webkit-scrollbar-track {
+    background: solid #ffffff; /* Color de fondo de la pista */
+    border-radius: 150px;
+  
+  }
 
   .div1  {
     flex: 1;

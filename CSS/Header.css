@@ -4,14 +4,14 @@
 
 header {
   
-  padding: 20px 0;
+  padding: 0px 0;
   font-family: "Slackey", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .espacio-header {
-  background-color: rgb(239, 154, 26);
+  background-color: rgba(239, 154, 26, 0.711);
   display: flex;
   justify-content: space-between;
   align-items: center;
