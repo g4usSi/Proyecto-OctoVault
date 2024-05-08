@@ -1,4 +1,4 @@
-.contener {
+.contenerh {
     min-width: 1000px;
     min-height: 600px;
     border: 10px solid #B2AFAF;
@@ -11,12 +11,12 @@
 #texto {
     color: rgb(0, 0, 0);
 }
-.parrafo{
-    font-size: 40px;
+.parrafo {
+    font-size: 30px;
     text-align: justify;
     font-family: 'Bubblegum Sans';
 }
-.contener .caja{
+.contenerh .caja{
     min-width: 500px;
     height: 500px;
     line-height: 110px;
@@ -29,7 +29,7 @@
     border-radius: 20px;
     font-size: 20px;
 }
-.img02 {
+.bobyc {
     width: 500px;
     height: 500px;
     /* Ajustes para centrar la imagen en la primera columna */
