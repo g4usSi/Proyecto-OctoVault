@@ -5,13 +5,8 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.512), rgba(255, 255, 255, 0.485)),url("/CSS/Imagenes/VERSHHH.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: "Slackey", sans-serif;
-    font-family: "Slackey", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
 }
 
