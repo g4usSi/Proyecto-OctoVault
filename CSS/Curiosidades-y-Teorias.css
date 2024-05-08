@@ -1,6 +1,8 @@
 /*Curiosidades y teorias*/
 .CuriosidadesyTeorias {
-  margin: 80px 0px 40px 20px;/*top, right, bottom, left*/
+  margin-top: 10vh;
+  margin: center;
+  margin-bottom: 10vh;/*top, right, bottom, left*/
 }/*Estilo de toda la seccion de Curiosidades*/
 
 ::before, ::after {
@@ -11,7 +13,6 @@
 
 /*Titulo*/
 .contenedor-titulo-cyt {
-  
   height: 150px;
   display: flex;
   position: relative;
@@ -60,10 +61,36 @@
 
 /*@media (max-width: 1000px) {
   .contenedor-titulo-cyt {
-    resize: 500px;
-    width: auto;
+    height: 150px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .contenedor-titulo-cyt {
+    resize: 100px;
+    width: 300px;
     height: auto;
     position: relative;
+  }
+  .contenedor-titulo-cyt img {
+    margin-left: 0%;
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+  }
+  .contenedor-titulo-cyt h2 {
+    margin-top: 5%;
+    transform: rotate(-6deg);
+    position: absolute;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
   }
 }*//*responsive, delimitar los nuevos parametros para responsive*/
 
@@ -78,7 +105,6 @@
 }
 
 .contenedor-curiosidades {
-  
   border: 10px solid #00000052;
   backdrop-filter: blur(0.38rem);
   -webkit-backdrop-filter: blur(0.35rem);
@@ -143,7 +169,7 @@
   display: flex;
   flex-direction: column;
   border: solid 0.5px rgba(253, 204, 57);
-  margin-left: 36px;
+  margin-left: 20px;
   border-radius: 15px;
   width: 250px;
   min-width: 280px;

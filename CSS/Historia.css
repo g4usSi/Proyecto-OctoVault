@@ -1,15 +1,22 @@
 .Historia {
-    margin: 80px 0px 40px 20px;/*top, right, bottom, left*/
+    margin: center center;/*top, right, bottom, left*/
 }
 
 .contenerh {
-    min-width: 1000px;
-    min-height: 500px;
+    min-width: auto;
+    min-height: auto;
     border: 10px solid #B2AFAF;
     border-radius: 25px;
     background-color:rgba(253, 204, 57, 0.29);
     display: inline-flex;
   
+}
+
+@media (max-width: 1000px) {
+    .contenerh {
+        flex-direction: column;
+    }
+
 }
 
 #texto {
@@ -32,7 +39,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
-    font-size: 20px;
 }
 .bobyc {
     width: 400px;
