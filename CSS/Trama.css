@@ -1,3 +1,6 @@
+.Trama {
+    margin: 80px 25px 40px 20px;/*top, right, bottom, left*/
+  }
 .parrafos
 {
     columns: 200px 2;
