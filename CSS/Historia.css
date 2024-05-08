@@ -1,6 +1,6 @@
 .contenerh {
     min-width: 1000px;
-    min-height: 600px;
+    min-height: 500px;
     border: 10px solid #B2AFAF;
     border-radius: 25px;
     background-color:rgba(253, 204, 57, 0.29);
@@ -17,8 +17,8 @@
     font-family: 'Bubblegum Sans';
 }
 .contenerh .caja{
-    min-width: 500px;
-    height: 500px;
+    min-width: 400px;
+    height: 400px;
     line-height: 110px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -30,8 +30,8 @@
     font-size: 20px;
 }
 .bobyc {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 420px;
     /* Ajustes para centrar la imagen en la primera columna */
     display: block;
     margin-left: auto;
