@@ -1,6 +1,6 @@
 /*Curiosidades y teorias*/
 .CuriosidadesyTeorias {
-  margin: 40px 0px 0px 20px;/*top, right, bottom, left*/
+  margin: 15px 0px 0px 20px;/*top, right, bottom, left*/
 }/*Estilo de toda la seccion de Curiosidades*/
 
 ::before, ::after {
@@ -11,6 +11,9 @@
 
 /*Titulo*/
 .contenedor-titulo-cyt {
+  margin-top: 1%;
+  margin-left: -2%;
+  width: 500px;
   height: 150px;
   display: flex;
   position: relative;
@@ -18,28 +21,28 @@
   justify-content: center;
   text-align: center;
   z-index: 2;
-  gap: 3.5%;
+  gap: 2%;
 }/*imagen del titulo*/
 
 #fondo-titulo {
   width: 435px; /*imagen de fondo*/
   height: 230px;
   opacity: 0.88;
-  transform: rotate(-5deg);
+  transform: rotate(-7deg);
 }
 
 .contenedor-titulo-cyt img {
   margin-left: 0%;
-  margin-top: 3%;
+  margin-top: 18%;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .contenedor-titulo-cyt h2 {
-  margin-top: 5%;
-  transform: rotate(-6deg);
+  margin-top: 25%;
+  transform: rotate(-5deg);
   position: absolute;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,15 +71,14 @@
 /*Tarjetas*/
 /*delimitar un tamaño fijo para cada caja*/
 .imagenTarjetas {
-  border-radius: 25px;
-  width: 220px; 
-  height: auto;
-  margin-left: 10%;
-  border: solid 0.001px #fad4181c;
+  display: block; /* Para que la imagen se comporte como un bloque */
+  margin: auto; /* Centrar horizontalmente */
+  width: 100%; /* Ajustar el ancho según sea necesario */
+  height: auto; /* Mantener la relación de aspecto de la imagen */
 }
 
 .contenedor-curiosidades {
-  border: 10px solid #00000052;
+  border: 10px solid #00000039;
   backdrop-filter: blur(0.38rem);
   -webkit-backdrop-filter: blur(0.35rem);
   background: #9590902b;
@@ -84,17 +86,18 @@
   display: flex;
   flex-direction: row;
   padding: 20px;
-  width: 100% auto;
+  width: auto;
   font-size: 10px;
+  height: auto;
   position: center;
   text-align: justify;
   overflow-x: auto; 
-  gap: 68px;/*Barra deslizante*/
+  gap: 70px;/*Barra deslizante*/
 }/*contendor de las tarjetas*/
 /*estilizando la barra*/
 
 .contenedor-curiosidades::-webkit-scrollbar {
-  height: 3px;
+  height: 4px;
   overflow-x: scroll;
   scrollbar-width: thin;
 }
@@ -121,142 +124,116 @@
 
 .curiosidad5 h3,
 .curiosidad5 p {
-  position: center;
-  padding: 20px;
   color:black;
-  font-size: 14px;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  justify-content: space-between; 
+  font-size: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto; 
   width: 85%;
-  align-items: center;
-  justify-content: center;
-  
+  word-spacing: -0.07em;
 }
 
 /*tarjeta*/
 .curiosidad5 {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  border: solid 0.5px rgba(253, 204, 57);
-  margin-left: 36px;
+  border: 4px rgba(253, 204, 57);
+  margin-left: 20px;
+  margin-top: 40px;
   border-radius: 15px;
   width: 250px;
   min-width: 280px;
-  height: 520px;
-  cursor: default;
-  transition: all 800ms ease;
+  min-height: 600px;
+ 
   background-color: rgba(253, 204, 57, 0.4);
 }
 
 .curiosidad4 h3,
 .curiosidad4 p {
-  position: center;
-  padding: 20px;
   color:black;
-  font-size: 14px;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  justify-content: space-between; 
-  width: 85%;
-  align-items: center;
-  justify-content: center;
-}
-
-.curiosidad4{
-  margin-top: 40px;
+  font-size: 15px;
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
-  border: solid 0.5px rgba(19, 134, 198);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 85%;
+  word-spacing: -0.07em;
+}
+.curiosidad4{
+  border: 4px rgba(19, 134, 198);
   border-radius: 15px;
   width: 250px;
   min-width: 280px;
-  height: 520px;
+  min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(19, 134, 198, 0.4);
 }
 
 .curiosidad3 h3,
 .curiosidad3 p {
-  display: flex;
-  flex-direction: column;
-  position: center;
-  padding: 20px;
   color:black;
-  font-size: 14px;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  justify-content: space-between; 
+  font-size: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
   width: 85%;
-  align-items: center;
-  justify-content: center;
+  word-spacing: -0.07em;
 }
 
 .curiosidad3{
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  border: solid 0.5px rgba(78, 113, 151);
+  border: 4px rgba(78, 113, 151);
   border-radius: 15px;
   width: 250px;
   min-width: 280px;
-  height: 520px;
+  min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(78, 113, 151, 0.45);
 }
 .curiosidad2 h3,
 .curiosidad2 p {
-  position: center;
-  padding: 20px;
   color:black;
-  font-size: 14px;
-  margin-bottom: 50px;
-  margin-top: 8px;
-  justify-content: space-between; 
-  width: 85%;
-  align-items: center;
-  justify-content: center;
-}
-
-.curiosidad2{
-  margin-top: 40px;
+  font-size: 15px;
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
-  border: solid 0.5px rgba(255, 84, 95);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 85%;
+  word-spacing: -0.07em;
+}
+.curiosidad2{
+  border: 4px rgba(255, 84, 95);
   border-radius: 15px;
   width: 250px;
   min-width: 280px;
-  height: 520px;
+  min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(255, 84, 95, 0.6);
 }
 
 .curiosidad1 h3,
 .curiosidad1 p {
-  position: center;
-  padding: 20px;
   color:black;
-  font-size: 14px;
-  margin-bottom: 5px;
-  margin-top: 6px;
-  justify-content: space-between; 
+  font-size: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
   width: 85%;
-  align-items: center;
-  justify-content: center;
+  word-spacing: -0.07em;
 }
 
 .curiosidad1 {
-  margin-top: 80px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  border: solid 0.5px rgba(132, 207, 187); /* Estilo de borde existente */
+  border: 4px rgba(132, 207, 187); /* Estilo de borde existente */
   border-radius: 15px; /* Redondeo de esquinas */
-  margin-right: 40px;
   width: 250px;
   min-width: 280px;
-  height: 520px; /* Incluir el borde en el tamaño */
+  min-height: 400px;
+  box-sizing: border-box; /* Incluir el borde en el tamaño */
   background-color: rgba(132, 207, 187, 0.486);
 }
 /*Fin de Curiosidades y Teorias*/
