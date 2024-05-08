@@ -11,6 +11,7 @@
 
 /*Titulo*/
 .contenedor-titulo-cyt {
+  
   height: 150px;
   display: flex;
   position: relative;
@@ -43,6 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 #titulos-principales {
@@ -76,6 +78,7 @@
 }
 
 .contenedor-curiosidades {
+  
   border: 10px solid #00000052;
   backdrop-filter: blur(0.38rem);
   -webkit-backdrop-filter: blur(0.35rem);
