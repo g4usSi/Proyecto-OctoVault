@@ -13,17 +13,34 @@
   <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
   <link rel="stylesheet" href="CSS/reset.css">
   <link rel="stylesheet" href="CSS/Style.css">
-  <link rel="stylesheet" href="CSS/Curiosidades-Teorias.css">
+  <link rel="stylesheet" href="CSS/Curiosidades-y-Teorias.css">
   <link rel="stylesheet" href="CSS/Impacto-Cultural.css">
   <link rel="stylesheet" href="CSS/Estetica.css">
   <link rel="stylesheet" href="CSS/Personajes.css">
   <link rel="stylesheet" href="CSS/Trama.css">
   <link rel="stylesheet" href="CSS/Historia.css">
+  <link rel="stylesheet" href="CSS/Header.css">
 </head>
 
 <body>
   <header>
-    <p>Header</p>
+    
+    <div class="espacio-header">
+      <nav>
+        <ul>
+          <li><a href="#Trama">Trama</a></li>
+          <li><a href="#Historia">Historia</a></li>
+          <li><a href="#Estetica">Estetica</a></li>
+          <li><a href="#Personajes">Personajes</a></li>
+          <li><a href="#Impacto-Cultural">Impacto-Cultural</a></li>
+          <li><a href="#Curiosidades-Teorias"> Curiosidade-Teorias</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <img src="CSS/Imagenes/Imagenes Estetica/logo.webp" alt="Logo">
+      </div>
+    </div>
+
     <div class="banner">
 
     </div>
@@ -33,7 +50,7 @@
 
 
     <!-- Leonor -->
-    <section class="Trama">
+    <section class="Trama" id="Trama">
       <h2 id="titulos-principales" class="centrado">Trama</h2>
       <section class="bordes">
         <div id="texto">
@@ -61,7 +78,7 @@
     </section>
 
     <!-- Amelia -->
-    <section class="Historia">
+    <section class="Historia" id="Historia">
       <h2>Historia</h2>
       <div>
         <p>
@@ -80,7 +97,7 @@
 
     <!-- Jennifer -->
    
-      <section class="Estetica">
+      <section class="Estetica" id="Estetica">
         <h2 id="titulos-principales">Estetica</h2>
         <div class="card-container">
           <div class="card">
@@ -156,11 +173,11 @@
 
         </section>
         <!-- Mily -->
-        <section class="Personajes">
+        <section class="Personajes" id="Personajes">
           <h2 class="titulo-seccion">Personajes</h2>
           <div class="containerpersonajes">
-            <div class="div1"><img src="image.jpg" alt="Imagen bob esponja">
-              <p class="titulos-principales">
+            <div class="div1"><img src="CSS/Imagenes/bobes.webp" alt="Imagen bob esponja" class="imagenespersonajes">
+              <p class="titulosdivs">
                 Bob Esponja
                 <br>
               </p>
@@ -169,8 +186,8 @@
                 el Crustáceo Cascarudo.
               </p>
             </div>
-            <div class="div2"><img src="image.jpg" alt="Imagen patricio estrella">
-              <p class="titulos-principales">
+            <div class="div2"><img src="CSS/Imagenes/patricioes.webp" alt="Imagen patricio estrella" class="imagenespersonajes">
+              <p class="titulosdivs">
                 Patricio estrella
                 <br>
               </p>
@@ -178,8 +195,8 @@
                 Una estrella de mar rosa, perezosa, algo ingenua pero extremadamente leal, mejor amigo de Bob Esponja.
               </p>
             </div>
-            <div class="div3"><img src="image.jpg" alt="Imagen calamardo">
-              <p class="titulos-principales">
+            <div class="div3"><img src="CSS/Imagenes/calamardoo.png" alt="Imagen calamardo" class="imagencalamardo">
+              <p class="titulosdivs">
                 Calamardo
                 <br>
               </p>
@@ -188,8 +205,8 @@
                 Cascarudo y sueña con tener éxito en el arte.
               </p>
             </div>
-            <div class="div4"><img src="image.jpg" alt="Imagen don cangrejo">
-              <p class="titulos-principales">
+            <div class="div4"><img src="CSS/Imagenes/cangrejo.webp" alt="Imagen don cangrejo" class="imagenespersonajes">
+              <p class="titulosdivs">
                 Don Cangrejo
                 <br>
               </p>
@@ -198,8 +215,8 @@
                 Calamardo.
               </p>
             </div>
-            <div class="div5"><img src="image.jpg" alt="Imagen Arenita">
-              <p class="titulos-principales">
+            <div class="div5"><img src="CSS/Imagenes/arenitaam.png" alt="Imagen Arenita" class="imagenespersonajes">
+              <p class="titulosdivs">
                 Arenita Mejillas
                 <br>
               </p>
@@ -208,8 +225,8 @@
                 Esponja y Patricio.
               </p>
             </div>
-            <div class="div6"><img src="image.jpg" alt="Imagen Señora Puff">
-              <p class="titulos-principales">
+            <div class="div6"><img src="CSS/Imagenes/puff.webp" alt="Imagen Señora Puff" class="imagenespersonajes">
+              <p class="titulosdivs">
                 Señora Puff
                 <br>
               </p>
@@ -218,18 +235,17 @@
                 intentado (sin éxito) obtener su licencia de conducir.
               </p>
             </div>
-            <div class="div7"><img src="image.jpg" alt="Imagen Sheldon Plnakton">
-              <p class="titulos-principales">
+            <div class="div7"><img src="CSS/Imagenes/planktonn.webp" alt="Imagen Sheldon Plnakton" class="imagenespersonajes">
+              <p class="titulosdivs">
                 Sheldon Plankton
                 <br>
               </p>
               <p class="sheldon">
-                Un plancton microscópico que es el rival de Don Cangrejo y dueño del Chum Bucket, restaurante rival del
-                Crustáceo Cascarudo. Está constantemente tratando de robar la receta de las Cangreburgers.
+                Un plancton microscópico, rival de Don Cangrejo y dueño del Chum Bucket. Trata constantemente de robar la receta de las Cangreburgers.
               </p>
             </div>
-            <div class="div8"><img src="image.jpg" alt="Imagen Karen Plankton">
-              <p class="titulos-principales">
+            <div class="div8"><img src="CSS/Imagenes/karenp.webp" alt="Imagen Karen Plankton" class="imagenespersonajes">
+              <p class="titulosdivs">
                 Karen Plankton
                 <br>
               </p>
@@ -242,20 +258,59 @@
 
         </section>
 
-        <!-- Daniel -->
-        <section class="Impacto-cultural">
-          <h2>Impacto Cultural</h2>
-
-        </section>
-
         <!-- Geovanny -->
-        <section class="Curiosidade-Teorias">
-          <h2>Curiosidades y Teorias</h2>
-
+    <section class="CuriosidadesyTeorias" id="Curiosidades-Teorias">
+          <section class="contenedor-titulo-cyt">
+            <img src="CSS/Imagenes/CuriosidadesyTeorias/Titulo.png" id="fondo-titulo" alt="fondo">
+            <h2 id="titulos-principales">Curiosidades y <br> Teorias</h2>
         </section>
+
+        <div class = "contenedor-curiosidades">
+        <div class="curiosidad5">
+            <h3 class="titulo-card">El origen del nombre</h3>
+            <img src="/CSS/Imagenes/CuriosidadesyTeorias/SpongeBoy.jpeg"alt="Imagen5" class="imagenTarjetas">
+            <p>
+            Bob Esponja iba a llamarse originalmente SpongeBoy: Pero tuvieron que cambiar el nombre porque ya estaba registrado para su uso comercial.
+            </p>
+        </div>
+
+        <div class="curiosidad4">
+            <h3 class="titulo-card">Fondo de Bikini</h3>
+            <div><img src="/CSS/Imagenes/CuriosidadesyTeorias/FondodeBikini.jpeg" alt="Imagen4" class="imagenTarjetas"></div>
+            <p>
+            ¿Te has preguntado de dónde viene la inspiración para Fondo de Bikini? ¡No es pura ficción! Se inspira en el Atolón Bikini, un lugar real en el Océano Pacífico
+            </p>
+        </div>
+
+        <div class="curiosidad3">
+            <h3 class="titulo-card">¿Coonspiracion?</h3>
+            <div><img src="/CSS/Imagenes/CuriosidadesyTeorias/Sorpresa.png"alt="Imagen3" class="imagenTarjetas"></div>
+            <p>
+            Algunos fans creen que los personajes representan los 7 pecados capitales:<br> • Cangrejo (codicia)<br> • Plankton (envidia)<br> • Patricio (pereza)<br> • Arenita (orgullo)<br> • Calamardo (ira)<br> • Gary (gula)<br> • Bob (lujuria)
+            </p>
+        </div>
+
+        <div class="curiosidad2">
+            <h3 class="titulo-card">La voz del personaje</h3>
+            <div><img src="/CSS/Imagenes/CuriosidadesyTeorias/TomKenny.jpg" alt="Imagen2" class="imagenTarjetas"></div>
+            <p>
+            Tom Kenny, el actor que le da voz, utiliza una técnica especial para sonar como un niño.
+            </p>
+        </div>
+
+        <div class="curiosidad1">
+            <h3 class="titulo-card">Un éxito inesperado</h3>
+            <div><img src="/CSS/Imagenes/CuriosidadesyTeorias/Exito.jpg"alt="Imagen1" class="imagenTarjetas"></div>
+            <p>
+            Nickelodeon solo ordenó una temporada, pero su éxito inesperado lo convirtió en un fenómeno mundial. ¿Te imaginas un mundo sin Bob?
+            </p>
+        </div>
+    </div>
+
+  </section>
 
         <!-- Miguel -->
-        <section class="Miguel">
+        <section class="Miguel" id="Miguel">
           <h2>Impacto Cultural</h2>
 
         </section>
