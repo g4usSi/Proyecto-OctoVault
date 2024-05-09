@@ -11,14 +11,13 @@ header {
 }
 
 .espacio-header {
-  background-color: rgba(239, 154, 26, 0.711);
+  background-color:  #e6c335;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  height: 5px;
+  margin: 0 15px auto;
+  height: 40px;
 }
 .espacio-header {
   transition: background-color 0.5s ease-in-out, height 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -50,8 +49,9 @@ nav a {
 }
 
 .logo img {
-  max-width: 70px;
+  max-width: 100px;
   height: auto;
+  transform: rotate(6deg);
 }
 
 /* Responsive */
@@ -67,7 +67,7 @@ nav a {
   }
 
   nav ul {
-    text-align: center;
+    text-align: right;
   }
 
   nav li {

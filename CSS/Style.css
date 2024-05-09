@@ -2,7 +2,7 @@ body {
     font-family: "Slackey", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(rgba(255, 255, 255, 0.615), rgba(255, 255, 255, 0.61)),url("/CSS/Imagenes/fondo.jpg");
+    background: linear-gradient(to top , #ffffff1f,#8755d815, #ffffff1f, #04b1e62d, #ffffff1f, #41f0b63a),url("/CSS/Imagenes/fondo.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

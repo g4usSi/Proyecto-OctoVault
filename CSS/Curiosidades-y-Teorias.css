@@ -101,14 +101,14 @@
   width: 220px; 
   height: auto;
   margin-left: 10%;
-  border: solid 0.001px #fad4181c;
+  border: solid 0.001px #0000004c;
 }
 
 .contenedor-curiosidades {
   border: 10px solid #00000052;
-  backdrop-filter: blur(0.38rem);
-  -webkit-backdrop-filter: blur(0.35rem);
-  background: #9590902b;
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
+  background: #f6f2f2bd;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
