@@ -9,6 +9,7 @@
   text-align: center;
     padding: 20px;
     margin-bottom: 10px;
+    transform: rotate(-2deg);
   }
 
   .card-container {
