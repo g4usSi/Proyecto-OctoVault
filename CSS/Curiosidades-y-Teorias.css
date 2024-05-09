@@ -52,11 +52,11 @@
   -webkit-text-stroke: 0.2px black;
   color: #fdde00;
   text-shadow:
-    -3px 3px 0 #c3b11e,
-    1px 1px 0 #c3b11e,
-    1px 2px 0 #c3b11e,
-    1px 1px 0 #c3b11e,
-    1px 1px 0 #c3b11e;
+  -3px 3px 0 #000000,
+  1px 1px 0 #000000,
+  1px 2px 0 #000000,
+  1px 1px 0 #c3b11e,
+  1px 1px 0 #c3b11e;
 }/*texto del titulo*/
 
 /*@media (max-width: 1000px) {
