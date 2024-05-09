@@ -14,12 +14,13 @@
 }
 .titulo-impactocultural
 {
-    position: absolute;
+    font-size: 100px;
+    position: relative;
     top: 10%; 
-    left: 50%; 
+    left: 46%; 
     transform: translate(-50%, -50%);
     text-align: center;
-    margin: 0px 100px;
+    margin: 10px 100px;
     -webkit-text-stroke: 1.3px black;
     color: #fdde00;
     text-shadow:
@@ -30,33 +31,87 @@
       1px 1px 0 #c3b11e;
 }
 
-
+.Parrafos
+{
+    display: flex;
+    justify-content: space-between;
+    min-height: 400px;
+}
 .primer-parrafo 
 {
-    margin: 70px 50px;
-    border-radius: 10px;
-font-size: 10rem;
-    min-width: 1089px;
-    min-height: 500px;
-    box-sizing: content-box;
-    position: absolute;
-    top: 20px; 
-    left: 50px; 
-    z-index: 1;
-    left:0;
-    
+    margin: 0px 40px;
+    text-align:justify;
 }
 .segundo-parrafo 
 {
-
-    border: 0px;
-    margin: 50px 850px;
-    border-radius: 10px;
-    width: 250px;
-    min-width: 1089px;
-    min-height: 400px;
-    box-sizing: content-box;
-    position: right;
-    right:0;
+    margin: 0px 40px;
+    text-align: justify;
 }
 
+.Tituloreferencias
+{
+    min-height: 70px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 1000px;
+    font-style: italic;
+    
+}
+.ContenedorReferencias
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Phineasyferb
+{
+    margin: 0px 120px;
+    text-align: center;
+}
+
+.Futurama
+{
+    margin: 0px 110px;
+    text-align: center;
+}
+
+.TheLoudHouse
+{
+    margin: 0px 110px;
+    text-align: center;
+}
+
+.LosSimpson
+{
+    margin: 0px 110px;
+    text-align: center;
+}
+.Contenedorimagenes
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen-PyF
+{
+    margin: 0px 80px;
+    text-align: center;
+}
+
+.imagen-F
+{
+    margin: 0px 35px;
+    text-align: center;
+}
+
+.imagen-Tlh
+{
+    margin: 0px 65px;
+    text-align: center;
+}
+
+.imagen-LS
+{
+    margin: 0px 40px;
+    text-align: center;
+}
