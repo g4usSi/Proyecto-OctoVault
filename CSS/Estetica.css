@@ -95,6 +95,9 @@
     #imagenTarjetas{
       border-radius: 20px;
     }
+    .colori{
+      margin-left: 50px;
+    }
 
 
     @media screen and (max-width: 1190px) {
@@ -112,11 +115,12 @@
        }
       .card-container {
         margin: 10px;
+      
      
       }
       
       .card{
-        width: 200px;
+        width: 250px;
         height: 250px;
         perspective: 1000px;
         position: relative;
@@ -137,11 +141,45 @@
 
       .imagen-humor{
        
-        margin-left: 20px;
+        margin-left: 50px;
+      }
+      .colori{
+        margin-left: 30px;
+       
+        width: 169px;
       }
    /* .texto-estetica{
        display: none;
     }*/
+    }
+  
+    
+    @media screen and (max-width: 780px) {
+      .Estetica{
+        display: inline-block;
+      }
+      .card-container {
+        margin: 5px;
+      
+     
+      }
+      .card{
+        width: 200px;
+        height: 250px;
+        perspective: 1000px;
+        position: relative;
+        margin: 0 60px 60px 0; 
+      }
+      .colori{
+       
+        margin-right: 5px;
+        width: 169px;
+      }
+      .imagen-humor{
+       
+        margin-left: 20px;
+      }
+
     }
     
 
