@@ -5,40 +5,49 @@
     background-size: cover; /* Ajustar la imagen al contenedor */
     display: flex;
     margin: 10 15px auto;
+    display: flex;
 }
 .contenedor-footer {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10 20px auto;
-  }
-.logogh{
-    width: 150px;
-    height: 100px;
-    align-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: center;
+  padding: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  justify-content: space-between; 
+  width: 100%;
+
 }
-.logonick{
-    width: 60%;
-    height: 30%; 
-    margin-left: 15px;
+
+.logogh {
+  width: 150px;
+  height: auto;
+  align-items: center;
+}
+.logotiponickel {
+  width: auto;
+  height: 25px;
+  align-items: flex-end;
+  position: absolute;
+
 }
 .logon{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10 15px auto;
-  }
-  .creador{
-    flex: 1; 
-    border: 2px;
-    margin: 10px;
-    font-family: "Slackey", sans-serif;
-    font-size: 20px;
-    text-align: center; 
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-left: 10px;
+  position: relative; 
+}
+
+.creador{
+  text-align: center; 
     
-  }
-  .logogit{
-    text-align: center; 
-  }
+}
+.logogit{
+  text-align: center; 
+  margin-bottom: 15px;
+}
 
