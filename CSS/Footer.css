@@ -11,14 +11,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10 15px auto;
+    margin: 10 20px auto;
   }
 .logogh{
     width: 150px;
     height: 100px;
-    
+    align-items: center;
 }
 .logonick{
-    width: 30%;
-    height: 10%; 
+    width: 60%;
+    height: 30%; 
+    margin-left: 15px;
 }
+.logon{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10 15px auto;
+  }
+  .creador{
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    font-family: "Slackey", sans-serif;
+    font-size: 20px;
+    text-align: center; 
+    
+  }
+  .logogit{
+    align-items: center;
+  }
+
