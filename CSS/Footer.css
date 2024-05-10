@@ -16,8 +16,7 @@
   position: center;
   padding: 20px;
   margin-bottom: 8px;
-  margin-top: 8px;
-  justify-content: space-between; 
+  margin-top: 8px; 
   width: 100%;
 
 }
@@ -52,10 +51,10 @@
   margin-bottom: 15px;
 }
 
-@media (min-width: 800px){
+@media (min-width: 780px){
   .pata {
     width: 100%;
-    height: 600px; /* Ajusta la altura  */
+    height: 250px; /* Ajusta la altura  */
     background-image: radial-gradient(at top, #5bf0c3af, #8a4fd381); /* URL de la imagen del banner */
     background-size: cover; /* Ajustar la imagen al contenedor */
     display: flex;
@@ -63,15 +62,14 @@
     display: flex;
 }
 .logon{
-  width: 0;
-  height: 0;
+  width: auto;
+  height: 100%;
   display: flex;
   margin-left: 10px;
-  position: relative; 
+  position: relative;  
 }
   .contenedor-footer{
-      font-size: 20px;
-      font-family: 'Bubblegum Sans';
+      font-size: 25px;
   }
   .contenedor-footer {
     align-items: center;
@@ -81,9 +79,7 @@
     flex-direction: column;
     position: center;
     padding: 20px;
-    margin-bottom: 8px;
-    margin-top: 8px;
-    justify-content: space-between; 
+    margin-bottom: 8px; 
     width: 100%;
   
   }
@@ -94,3 +90,42 @@
   }
 
 }/*cuando se hace chiquito xd*/
+@media (max-width: 760px){
+    .pata {
+      width: 100%;
+      height: 300px; /* Ajusta la altura  */
+      background-image: radial-gradient(at top, #5bf0c3af, #8a4fd381); /* URL de la imagen del banner */
+      background-size: cover; /* Ajustar la imagen al contenedor */
+      display: flex;
+      display: flex;
+  }
+  .logon{
+    width: auto;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    position: relative;  
+  }
+    .contenedor-footer{
+        font-size: 25px;
+    }
+    .contenedor-footer {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      position: center;
+      padding: 20px;
+      margin-bottom: 8px; 
+      width: 100%;
+    
+    }
+  
+    .logon {
+      width: auto;
+      height: 100%;
+      display: flex;
+      position: relative; 
+    }
+}
