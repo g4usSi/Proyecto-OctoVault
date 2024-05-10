@@ -4,4 +4,21 @@
     background-image: radial-gradient(at top, #5bf0c36f, #8a4fd35c); /* URL de la imagen del banner */
     background-size: cover; /* Ajustar la imagen al contenedor */
     display: flex;
+    margin: 10 15px auto;
+}
+.contenedor-footer {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10 15px auto;
+  }
+.logogh{
+    width: 150px;
+    height: 100px;
+    
+}
+.logonick{
+    width: 30%;
+    height: 10%; 
 }
