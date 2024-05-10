@@ -1,27 +1,33 @@
 .container {
-    display: flex; /* Activar Flexbox */
-    justify-content: space-between; /* Distribuir espacio entre elementos */
-    align-items: flex-start; /* Centrar elementos verticalmente */
-    /* Eliminar flex-wrap: wrap */
-  }
-  
-  .column {
-    flex: 1;
-    margin-bottom: 2px;
-  }
-  
-  .image-text {
-    text-align: center;
-  }
-  
-  .image-text img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .image-text p {
-    margin-top: 1px;
-  }
-  
-  
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  position: relative; /* Añadido */
+}
+
+.divbob1, .divbob2, .divbob3 {
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+  font-size: 16px;
+  min-width: 300px;
+  height: 350px;
+  background-color: rgba(19, 134, 198, 0.22); /* Color azul */
+  position: relative; /* Añadido */
+}
+
+.divbob1 img, .divbob2 img, .divbob3 img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative; /* Añadido */
+}
+
+#titulos-principales {
+  font-size: 3em; /* Tamaño del texto */
+  text-align: center; 
+}
