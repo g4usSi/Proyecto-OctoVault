@@ -51,6 +51,11 @@
   margin-bottom: 15px;
 }
 
+.enlace{
+  text-decoration: none;
+  color: black;
+  box-shadow: none;
+}
 @media (min-width: 780px){
   .pata {
     width: 100%;
