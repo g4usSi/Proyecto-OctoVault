@@ -1,7 +1,4 @@
 /* General */
-
-
-
 header {
   
   padding: 0px 0;
@@ -11,8 +8,7 @@ header {
 }
 
 .espacio-header {
-background-color:  #e6c335;
- 
+  background-color:  #f7e840;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +18,9 @@ background-color:  #e6c335;
 }
 .espacio-header {
   transition: background-color 0.5s ease-in-out, height 0.5s ease-in-out, padding 0.5s ease-in-out;
+background-image: url("/CSS/Imagenes/esponjatexture.png");
+  background-position: center;
+  background-size: contain;
 }
 
 /* Navegación */
@@ -112,5 +111,22 @@ nav a {
   }
   
 }
+@media (min-width: 500px) {
+  .espacio-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
+  nav {
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    text-align: right;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
 
