@@ -45,7 +45,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 #titulos-principales {
@@ -59,40 +58,6 @@
   1px 1px 0 #c3b11e;
 }/*texto del titulo*/
 
-/*@media (max-width: 1000px) {
-  .contenedor-titulo-cyt {
-    height: 150px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    z-index: 2;
-  }
-  
-  .contenedor-titulo-cyt {
-    resize: 100px;
-    width: 300px;
-    height: auto;
-    position: relative;
-  }
-  .contenedor-titulo-cyt img {
-    margin-left: 0%;
-    margin-top: 3%;
-    width: 100%;
-    height: auto;
-  }
-  .contenedor-titulo-cyt h2 {
-    margin-top: 5%;
-    transform: rotate(-6deg);
-    position: absolute;
-    font-size: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-}*//*responsive, delimitar los nuevos parametros para responsive*/
 
 /*Tarjetas*/
 /*delimitar un tamaño fijo para cada caja*/
@@ -289,3 +254,34 @@
   background-color: rgba(132, 207, 187, 0.486);
 }
 /*Fin de Curiosidades y Teorias*/
+
+@media (max-width: 768px) {
+  .CuriosidadesyTeorias {
+    margin-top: 4vh;
+    margin: center;
+    margin-bottom: 10vh;/*top, right, bottom, left*/
+  }
+  #fondo-titulo {
+    margin-top: 50px;
+    width: 360px; /*imagen de fondo*/
+    height: auto;
+    opacity: 0.88;
+    transform: rotate(-5deg);
+  }
+  .curiosidad5 {
+  margin-left: 20px;
+  }
+  .contenedor-titulo-cyt h2 {
+    margin-top: 20%;
+    transform: rotate(-6deg);
+    position: absolute;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 500px) {
+
+
+}

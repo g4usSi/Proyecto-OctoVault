@@ -23,6 +23,9 @@ header {
   background-position: center;
   background-size: contain;
 }
+.espacio-header li{
+  margin-right: 20px;
+}
 
 /* Navegación */
 
@@ -82,7 +85,11 @@ position: absolute;
   height: 40px;
   background-color: rgba(0, 0, 0, 0.5);
   }
-
+  .espacio-header2 li{
+    margin-right: 3px;
+    margin-left: 6px;
+    margin-top: 10px;
+  }
   nav {
     margin-bottom: 20px;
   }
