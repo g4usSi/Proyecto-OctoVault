@@ -18,7 +18,7 @@ header {
 }
 .espacio-header {
   transition: background-color 0.5s ease-in-out, height 0.5s ease-in-out, padding 0.5s ease-in-out;
-background-image: url("/CSS/Imagenes/esponjatexture.png");
+  background-image: url("/CSS/Imagenes/esponjatexture.png");
   background-position: center;
   background-size: contain;
 }

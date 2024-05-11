@@ -2,7 +2,7 @@ body {
     font-family: "Slackey", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(to top , #ffffff1f,#8755d815, #ffffff1f, #04b1e600, #ffffff1f, #41f0b63a),url("/CSS/Imagenes/fondo.jpg");
+    background: linear-gradient( #ffffff63,#ffffff7b),url("/CSS/Imagenes/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Slackey", sans-serif;
@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    background-color: #e6c235f3;
-    padding: 20px;
+    background-color: #f7e940;
+    padding: 30px;
 }
 
 .html{
@@ -24,7 +24,7 @@ header {
 }
 .banner {
     width: 100%;
-    height: 600px; /* Ajusta la altura  */
+    height: 550px; /* Ajusta la altura  */
     background-image: url("Imagenes/Cosmic\ Shake\ UHD.webp"); /* URL de la imagen del banner */
     background-size: cover; /* Ajustar la imagen al contenedor */
     background-position: center; /* Posicionar la imagen en el centro */
@@ -74,11 +74,14 @@ p {
 }
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 .html {
     box-sizing: border-box; /* NOS SIRVE PARA QUE NO HAYA EXTRA DE PANTALLA */
     font-size: 62.5%; /* AJUSTA LA LETRA DEPENDIENDO DEL ANCHO PERO AUN ASI HAY QUE AJUSTAR CADA SECCION  SI ES NECESARIO*/
+    scroll-behavior: smooth;
 }
 
 
