@@ -1,0 +1,136 @@
+.pata {
+    width: 100%;
+    height: 200px; /* Ajusta la altura  */
+    background-image: radial-gradient(at top, #5bf0c36f, #8a4fd35c); /* URL de la imagen del banner */
+    background-size: cover; /* Ajustar la imagen al contenedor */
+    display: flex;
+    margin: 10 15px auto;
+    display: flex;
+}
+.contenedor-footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: center;
+  padding: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px; 
+  width: 100%;
+
+}
+
+.logogh {
+  width: 150px;
+  height: auto;
+  align-items: center;
+}
+.logotiponickel {
+  width: auto;
+  height: 30px;
+  position: absolute; /* Absolute positioning for precise control */
+  bottom: 0; /* Places the image at the bottom of the container */
+  left: 50%; /* Centers the image horizontally (optional) */
+  bottom: 5px;
+}
+.logon{
+  width: auto;
+  height: 100%;
+  display: flex;
+  margin-left: 10px;
+  position: relative; 
+}
+
+.creador{
+  text-align: center; 
+    
+}
+.logogit{
+  text-align: center; 
+  margin-bottom: 15px;
+}
+
+.enlace{
+  text-decoration: none;
+  color: black;
+  box-shadow: none;
+}
+@media (min-width: 780px){
+  .pata {
+    width: 100%;
+    height: 250px; /* Ajusta la altura  */
+    background-image: radial-gradient(at top, #5bf0c3af, #8a4fd381); /* URL de la imagen del banner */
+    background-size: cover; /* Ajustar la imagen al contenedor */
+    display: flex;
+    margin: 10 15px auto;
+    display: flex;
+}
+.logon{
+  width: auto;
+  height: 100%;
+  display: flex;
+  margin-left: 10px;
+  position: relative;  
+}
+  .contenedor-footer{
+      font-size: 25px;
+  }
+  .contenedor-footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: center;
+    padding: 20px;
+    margin-bottom: 8px; 
+    width: 100%;
+  
+  }
+
+  .logon {
+      width: 0;
+      height: 0;
+  }
+
+}/*cuando se hace chiquito xd*/
+@media (max-width: 760px){
+    .pata {
+      width: 100%;
+      height: 300px; /* Ajusta la altura  */
+      background-image: radial-gradient(at top, #5bf0c3af, #8a4fd381); /* URL de la imagen del banner */
+      background-size: cover; /* Ajustar la imagen al contenedor */
+      display: flex;
+      display: flex;
+  }
+  .logon{
+    width: auto;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    position: relative;  
+  }
+    .contenedor-footer{
+        font-size: 25px;
+    }
+    .contenedor-footer {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      position: center;
+      padding: 20px;
+      margin-bottom: 8px; 
+      width: 100%;
+    
+    }
+  
+    .logon {
+      width: auto;
+      height: 100%;
+      display: flex;
+      position: relative; 
+    }
+}

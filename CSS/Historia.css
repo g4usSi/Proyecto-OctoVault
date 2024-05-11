@@ -1,0 +1,98 @@
+.Historia{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contenerhistoria {
+    align-items: center;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-height: auto;
+    border: 10px solid #B2AFAF;
+    border-radius: 25px;
+    background-color:rgba(253, 204, 57, 0.29);
+    display: inline-flex;
+}
+
+#texto {
+    color: rgb(0, 0, 0);
+
+}
+.parrafoeliminar,
+.parrafo{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid; /* Activar Grid Layout */
+    place-items: center; /* Centrar en ambos ejes */
+    display: flex; /* Activar Flexbox */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Bubblegum Sans';
+}
+
+
+.contenerhistoroia .caja{
+    min-width: 400px;
+    height: 400px;
+    line-height: 110px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(30, 30, 30, 0);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bobyc {
+    width: 400px;
+    height: auto;
+    /* Ajustes para centrar la imagen en la primera columna */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media (min-width: 800px){
+    .parrafo{
+        margin-top: 20px;
+    }
+    .bobyc {
+        width: 350px;
+        height: auto;
+        /* Ajustes para centrar la imagen en la primera columna */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    .contenerhistoria {
+        flex-direction: column;
+    }
+    .parrafo{
+        margin-top: 20px;
+    }
+    .parrafoeliminar{
+        font-size: 0px;
+    }
+    .bobyc {
+        width: 300px;
+        height: auto;
+        /* Ajustes para centrar la imagen en la primera columna */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}

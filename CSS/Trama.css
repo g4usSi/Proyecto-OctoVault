@@ -1,0 +1,104 @@
+.Trama {
+    margin-top: 40px;
+    margin: center center;/*top, right, bottom, left*/
+  }
+.parrafos
+{
+    columns: 200px 2;
+    column-gap: 100px;
+    padding: 20px;
+    text-align: justify;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+#letra{
+    font-size: 30px;
+    font-family: 'Bubblegum Sans';
+}
+.img01 {
+    width: 800px;
+    height: 300px;
+    /* Ajustes para centrar la imagen en la primera columna */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: agua 8s infinite ease-in-out;
+}
+.centrado {
+text-align:center;
+}
+.bordes { 
+    border: 10px solid #B2AFAF;
+    background-color:  rgba(79, 209, 240, 0.6);
+    display: inline-flex;
+    margin: 10px;
+    padding: 15px;
+    min-width: 100;
+    height: fit-content;
+    position: relative;
+    text-align: center;
+    border-radius:  20px;
+    color: black;
+}
+
+#texto {
+    color: black;
+    border-radius:  20px;
+    
+}
+#texto > .parrafos > p:nth-child(2) {
+    font-size: normal; /* Tamaño de fuente normal */
+}
+@keyframes agua {
+    0% {
+      transform: rotate(-3deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    75% {
+        transform: rotate(3deg); 
+    }
+    100% {
+        transform: rotate(-3deg); 
+    }
+}
+
+@media (min-width: 800px){
+    #letra{
+        font-size: 20px;
+        font-family: 'Bubblegum Sans';
+    }
+
+    .img01 {
+        width: 350px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}/*cuando se hace chiquito xd*/
+@media (max-width: 760px){
+    #letra {
+        font-size: 20px;
+    }
+
+    .img01 {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .EliminarParrafo {
+        font-size: 0;
+        display: none;
+    }
+}

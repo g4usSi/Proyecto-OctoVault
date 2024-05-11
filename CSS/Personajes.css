@@ -1,0 +1,218 @@
+.Personajes {
+  margin: center center;/*top, right, bottom, left*/
+}
+
+.containerpersonajes {
+    display: flex; /* Activate Flexbox for the container */
+    flex-direction: row;
+    overflow-x: auto;
+    background-color: #0808081b;
+    border-radius: 20px;
+    overflow-x: auto;
+    backdrop-filter: blur(0.38rem);
+    -webkit-backdrop-filter: blur(0.35rem);
+  }
+
+  .containerpersonajes::-webkit-scrollbar {
+    height: 3px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+  }
+  
+  .containerpersonajes::-webkit-scrollbar-thumb {
+    background: #535252c9; /* Color del thumb (agarre) */
+    border-radius: 150px; /* Hace el thumb redondo */
+  
+  }
+  
+  .containerpersonajes::-webkit-scrollbar-track {
+    background: solid #ffffff; /* Color de fondo de la pista */
+    border-radius: 150px;
+  
+  }
+
+  .div1  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;
+    background-color:rgba(19, 134, 198, 0.22);
+  }
+  .div2  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin:  20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;
+    background-color:rgba(253, 204, 57, 0.29);
+  }
+  .div3  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin:  20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;
+    background-color:rgba(255, 84, 95, 0.38);
+  }
+  .div4  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;
+    background-color:rgba(65, 212, 28, 0.38);
+  }
+  .div5  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;
+    background-color:rgba(249, 153, 9, 0.38);
+  }
+  .div6  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;
+    background-color:rgba(115, 47, 168, 0.38);
+  }
+  .div7  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin: 20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;;
+    background-color:rgba(253, 204, 57, 0.29);
+  }
+  .div8  {
+    flex: 1;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    margin:  20px;
+    text-align: center; 
+    font-size: 16px; 
+    min-width: 300px;
+    height: 360px;
+    background-color:rgba(19, 134, 198, 0.4);
+  }
+  .Bob  {
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.2;
+  }
+  .patricio  {
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.2;
+  }
+  .calamardo  {
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.2;
+  }
+  .cangrejo  {
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.2;
+  }
+  .arenita  {
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.5;
+  }
+  .señora  {
+    flex: 2; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.2;
+  }
+  .sheldon  {
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.2;
+  }
+  .karen  {
+    flex: 1; 
+    border: 2px;
+    margin: 10px;
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Bubblegum Sans';
+    line-height: 1.2;
+  }
+
+   .titulo-seccion{
+    text-align: center; 
+   }
+
+   .titulosdivs{
+    text-align: center; 
+    font-size: 20px;
+    font-family: "Slackey", sans-serif;
+    margin: 5px;
+    line-height: 0%;
+   }
+   
+   .imagenespersonajes{
+    width: 60%;
+      height: 57%;
+      margin: 5px;
+   }
+   .imagencalamardo{
+    width: 30%;
+    height: 50%;
+    margin: 5px;
+   }
+
+  
