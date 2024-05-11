@@ -76,6 +76,7 @@
 }
 
 @media (max-width: 760px) {
+
     .contenerhistoria {
         flex-direction: column;
     }
@@ -86,7 +87,7 @@
         font-size: 0px;
     }
     .bobyc {
-        width: 350px;
+        width: 300px;
         height: auto;
         /* Ajustes para centrar la imagen en la primera columna */
         display: block;
