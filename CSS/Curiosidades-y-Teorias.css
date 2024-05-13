@@ -142,6 +142,7 @@
   cursor: default;
   transition: all 800ms ease;
   background-color: rgba(253, 204, 57, 0.4);
+  transition: transform 200ms;
 }
 
 .curiosidad4 h3,
@@ -169,6 +170,7 @@
   height: 520px;
   box-sizing: border-box;
   background-color: rgba(19, 134, 198, 0.4);
+  transition: transform 200ms;
 }
 
 .curiosidad3 h3,
@@ -198,6 +200,7 @@
   height: 520px;
   box-sizing: border-box;
   background-color: rgba(78, 113, 151, 0.45);
+  transition: transform 200ms;
 }
 .curiosidad2 h3,
 .curiosidad2 p {
@@ -224,6 +227,7 @@
   height: 520px;
   box-sizing: border-box;
   background-color: rgba(255, 84, 95, 0.6);
+  transition: transform 200ms;
 }
 
 .curiosidad1 h3,
@@ -252,6 +256,15 @@
   min-width: 280px;
   height: 530px; /* Incluir el borde en el tamaño */
   background-color: rgba(132, 207, 187, 0.486);
+  transition: transform 200ms;
+}
+
+.curiosidad1:hover,
+.curiosidad2:hover,
+.curiosidad3:hover,
+.curiosidad4:hover,
+.curiosidad5:hover {
+  transform: scale(1.1);
 }
 /*Fin de Curiosidades y Teorias*/
 
