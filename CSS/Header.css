@@ -14,7 +14,6 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
-  margin: 0 15px auto;
   height: 40px;
 }
 .espacio-header {
@@ -22,9 +21,11 @@ header {
   background-image: url("/CSS/Imagenes/esponjatexture.png");
   background-position: center;
   background-size: contain;
+  border-bottom: solid 3px black;
 }
 .espacio-header li{
   margin-right: 20px;
+  margin-left: 10px;
 }
 
 /* Navegación */
